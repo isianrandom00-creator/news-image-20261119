@@ -19,7 +19,8 @@ Bounty Make.fun meminta satu gambar yang merangkum berita dunia pada Kamis, 19 N
 2. Mengunduh kit resmi dan memeriksa `RULES.txt` serta CLI kit; hash CLI dibandingkan dengan manifest kit.
 3. Membuat repo GitHub publik `isianrandom00-creator/news-image-20261119` dan menyiapkan repo lokal di `/workspace/bounty-work/news-image-20261119`.
 4. Menjalankan `bundle --dry-run` beberapa kali. CLI tidak menemukan sesi di folder lokal Cue yang dicari Make.fun, `~/.cue/agents/*/sessions`.
-5. Setelah Firt meminta worklog, membuat file ini dari percakapan yang tersedia. Ini catatan kerja, bukan log sesi atau pengganti transcript asli.
+5. Atas permintaan Firt, membuat `WORKLOG.md` berdasarkan percakapan yang tersedia. Ini catatan kerja, bukan log sesi atau pengganti transcript asli.
+6. Membuat commit lokal `375d40d` (`Add bounty worklog`). Percobaan push pertama melalui shell Git biasa gagal karena shell tersebut tidak memiliki kredensial GitHub untuk autentikasi non-interaktif.
 
 ## Ketentuan transcript yang ditemukan
 
@@ -29,8 +30,8 @@ Karena itu, WORKLOG ini tidak menggantikan sesi asli dan bukan transcript handed
 
 ## Hasil saat catatan ini dibuat
 
-- Repo berisi catatan kerja ini saja; `main.ts` dan gambar entry belum dibuat.
+- Repo lokal berisi catatan kerja ini saja; `main.ts` dan gambar entry belum dibuat.
 - Nama output yang diwajibkan nantinya adalah `/output/entry.png`; file itu belum dihasilkan.
-- Belum ada build, pengujian determinisme, pemeriksaan akhir kit, ulasan Warden, commit, atau submission.
+- Belum ada build, pengujian determinisme, pemeriksaan akhir kit, ulasan Warden, atau submission. Isi repo yang dikerjakan di sini adalah catatan kerja; entry bounty belum dibuat.
 - `bundle --dry-run` belum menemukan log sesi lokal. Ini hanya menggambarkan folder yang diperiksa pada komputer kerja, bukan bukti bahwa riwayat chat Cue Android hilang atau disalahgunakan.
 - Repo GitHub: https://github.com/isianrandom00-creator/news-image-20261119
